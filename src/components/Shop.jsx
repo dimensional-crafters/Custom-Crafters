@@ -6,8 +6,9 @@ const Shop = () => {
     <div>
       <div className="bg-primary w-full overflow-hidden">
         <div className="flex justify-between items-center py-4">
-          <div className="flex items-center pl-20">
-
+          <div className="flex items-center flex-col pl-20">
+            <h1 className="text-xl font-coda text-white">Custom</h1>
+            <h1 className="text-xl font-coda text-white">Crafters</h1>
           </div>
           <div className="flex items-center pr-20">
             <button className="text-white text-fira-medium py-2 px-4 font-bold text-m border-b border-transparent hover:border-white">
@@ -19,8 +20,7 @@ const Shop = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-coda text-white">Custom</h1>
-          <h1 className="text-4xl font-coda text-white">Crafters</h1>
+          <img src="/logo.png" alt="logo" className="w-80" />
           <div id="image" className="flex items-center">
             <img src="/custom-crafters.png" alt="cc" />
             <div className="absolute flex flex-row" style={{ width: '1004px', height: '580px', left: '50%', top: '50%', transform: 'translate(-50%, -30%)' }}>
@@ -64,7 +64,7 @@ const Shop = () => {
             </div>
           </div>
           <div className='flex flex-row'>
-            <div className='flex flex-col' style={{marginRight: '50px'}}>
+            <div className='flex flex-col' style={{ marginRight: '50px' }}>
               <div id="burnout" className='bg-white flex justify-center items-center' style={{
                 width: '372px', height: '393px', borderTopLeftRadius: '50px',
                 borderTopRightRadius: '50px',
